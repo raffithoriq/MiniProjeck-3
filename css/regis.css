@@ -1,0 +1,40 @@
+body{
+    font-family: 'oxygen', sans-serif;
+    font-size: 15px;
+    color: #222831;
+}
+
+.fz-13{
+    font-size: 13px;
+}
+
+a {
+    color: #F05454;
+    text-decoration: none;
+
+    &:hover {
+        color: #F05454;
+        text-decoration: underline;
+    }
+}
+
+.btn-primary {
+    color: #dddddd !important;
+    background-color: #cb1517 !important;
+    font-size: 15px;
+    border: none;
+
+    &:hover, &:active, &:focus {
+        outline: none;
+    }
+}
+
+.bg-regis{
+    background-image: url(foto/logo_polisi.png);
+    background-size: cover;
+    background-position: center; /* Pusatkan gambar di tengah */
+    background-repeat: no-repeat; /* Hindari pengulangan gambar */
+    height: 200px; /* Atur tinggi latar belakang */
+    width: 400px; /* Atur lebar latar belakang */
+}
+
